@@ -72,9 +72,10 @@ class NewNoteController: UITableViewController{
         func sendNotifications() {
             
             let content = UNMutableNotificationContent()
+            guard let description = newNote.descriptionText else {return}
             
             content.title = newNote.title
-            content.subtitle = (newNote.description)
+            content.subtitle = (description)
             content.sound = .defaultCritical
             
             

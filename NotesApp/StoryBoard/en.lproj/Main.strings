@@ -1,0 +1,36 @@
+
+/* Class = "UILabel"; text = "Напоминание"; ObjectID = "93L-hL-I8Q"; */
+"93L-hL-I8Q.text" = "Notification";
+
+/* Class = "UILabel"; text = "Название"; ObjectID = "COI-Bp-LJ1"; */
+"COI-Bp-LJ1.text" = "Title";
+
+/* Class = "UINavigationItem"; title = "Root View Controller"; ObjectID = "Cdb-Xp-0KK"; */
+"Cdb-Xp-0KK.title" = "Root View Controller";
+
+/* Class = "UINavigationItem"; title = "Новая заметка"; ObjectID = "EMz-2D-vWA"; */
+"EMz-2D-vWA.title" = "New note";
+
+/* Class = "UILabel"; text = "Title"; ObjectID = "Mb6-IV-DSc"; */
+"Mb6-IV-DSc.text" = "Title";
+
+/* Class = "UITextField"; placeholder = "Бегать по утрам, вынести мусор и т.п."; ObjectID = "SPI-oP-6TS"; */
+"SPI-oP-6TS.placeholder" = "Running in the morning, taking out the trash, etc.";
+
+/* Class = "UITextView"; text = "..."; ObjectID = "bRL-3M-MdD"; */
+"bRL-3M-MdD.text" = "...";
+
+/* Class = "UIButton"; configuration.title = "+"; ObjectID = "eVm-ga-xrU"; */
+"eVm-ga-xrU.configuration.title" = "+";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "eVm-ga-xrU"; */
+"eVm-ga-xrU.normalTitle" = "Button";
+
+/* Class = "UIBarButtonItem"; title = "Отмена"; ObjectID = "j5s-VR-86c"; */
+"j5s-VR-86c.title" = "Cancel";
+
+/* Class = "UIBarButtonItem"; title = "Готово"; ObjectID = "kKy-SG-22f"; */
+"kKy-SG-22f.title" = "Done";
+
+/* Class = "UILabel"; text = "Описание"; ObjectID = "tve-lW-wyL"; */
+"tve-lW-wyL.text" = "Description";

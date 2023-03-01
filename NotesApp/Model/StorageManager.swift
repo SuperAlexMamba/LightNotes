@@ -14,7 +14,7 @@ class StorageManager {
     
     static func saveObject(_ note: Note, swither: UISwitch) {
         
-        try! realm.write{
+        try! realm.write {
             realm.add(note)
             if swither.isOn == true{
                 note.notification = true

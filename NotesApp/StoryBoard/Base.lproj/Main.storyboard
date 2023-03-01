@@ -20,15 +20,8 @@
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <color key="tintColor" red="0.56598867790249718" green="0.53963306345592588" blue="1" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             <state key="normal" title="Button"/>
-                            <buttonConfiguration key="configuration" style="filled" titleAlignment="automatic">
-                                <attributedString key="attributedTitle">
-                                    <fragment content="+">
-                                        <attributes>
-                                            <font key="NSFont" size="40" name="Georgia"/>
-                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
-                                        </attributes>
-                                    </fragment>
-                                </attributedString>
+                            <buttonConfiguration key="configuration" style="filled" title="+" titleAlignment="automatic">
+                                <fontDescription key="titleFontDescription" name="Georgia" family="Georgia" pointSize="40"/>
                             </buttonConfiguration>
                             <connections>
                                 <segue destination="dQ7-Uj-rcc" kind="presentation" modalPresentationStyle="fullScreen" id="8bK-0c-hJH"/>
@@ -51,7 +44,6 @@
                                         </label>
                                     </subviews>
                                 </tableViewCellContentView>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <connections>
                                     <outlet property="titleLabel" destination="Mb6-IV-DSc" id="gfW-Mu-b1L"/>
                                     <segue destination="e4L-v1-5ph" kind="show" identifier="showDetail" id="w7p-u1-Kjk"/>
@@ -127,7 +119,6 @@
                                                 <constraint firstAttribute="trailing" secondItem="SPI-oP-6TS" secondAttribute="trailing" constant="20" symbolic="YES" id="zzi-Pq-bJL"/>
                                             </constraints>
                                         </tableViewCellContentView>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" rowHeight="221" id="2Po-it-dR8">
@@ -163,7 +154,6 @@
                                                 <constraint firstAttribute="bottom" secondItem="bRL-3M-MdD" secondAttribute="bottom" id="wH5-sa-n2X"/>
                                             </constraints>
                                         </tableViewCellContentView>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" rowHeight="262" id="Wjs-c1-Dv2">
                                         <rect key="frame" x="0.0" y="316" width="375" height="262"/>
@@ -205,7 +195,6 @@
                                                 <constraint firstItem="j15-Ly-Lll" firstAttribute="top" secondItem="scb-yy-aNK" secondAttribute="top" constant="15" id="whH-aa-D76"/>
                                             </constraints>
                                         </tableViewCellContentView>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     </tableViewCell>
                                 </cells>
                             </tableViewSection>
